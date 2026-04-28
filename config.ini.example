@@ -1,0 +1,25 @@
+# Copy this file to config.ini in the same folder as main.py or VTSModelSettingsTool.exe.
+# The app creates config.ini with defaults on first run if missing.
+
+[Paths]
+# Folder that contains one subfolder per Live2D model (each with *.vtube.json).
+# Example (Steam default):
+# live2d_models_path = C:\Program Files (x86)\Steam\steamapps\common\VTube Studio\VTube Studio_Data\StreamingAssets\Live2DModels
+live2d_models_path =
+
+[Backup]
+# Relative to app folder, or use an absolute path
+root = backups
+
+[UI]
+window_width = 1100
+window_height = 720
+last_source_model =
+last_target_model =
+last_json_file =
+hide_identical_rows = true
+
+[Diff]
+min_name_similarity = 0.55
+use_aligned_list_diff = true
+id_keys = hotkeyID,id,name,Name,file,fileName

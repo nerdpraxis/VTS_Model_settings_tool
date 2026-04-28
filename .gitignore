@@ -1,0 +1,36 @@
+# Virtual environments
+venv/
+.venv/
+.env/
+
+# PyInstaller
+dist/
+build/
+*.spec.bak
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# Local / OS
+.DS_Store
+Thumbs.db
+*.log
+
+# User config (copy from config.ini.example)
+config.ini
+
+# Private release text for GitHub (see RELEASE_DESCRIPTION.template.md)
+RELEASE_DESCRIPTION.local.txt
+PRIVATE_*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo

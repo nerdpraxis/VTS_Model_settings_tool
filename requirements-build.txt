@@ -1,0 +1,2 @@
+# Build-time only (PyInstaller for standalone EXE)
+pyinstaller>=6.0.0

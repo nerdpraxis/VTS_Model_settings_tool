@@ -1,0 +1,2 @@
+# VTS Model Settings Tool — runtime (Python 3.11+)
+PyQt6==6.9.1
