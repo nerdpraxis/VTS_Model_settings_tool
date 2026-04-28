@@ -25,7 +25,7 @@ Thumbs.db
 # User config (copy from config.ini.example)
 config.ini
 
-# Private release text for GitHub (see RELEASE_DESCRIPTION.template.md)
+# Private release notes draft (optional local file)
 RELEASE_DESCRIPTION.local.txt
 PRIVATE_*
 

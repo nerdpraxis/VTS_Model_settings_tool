@@ -132,8 +132,8 @@ LICENSE                 # MIT
 
 ## Publishing a release
 
-- See **[RELEASE_DESCRIPTION.template.md](RELEASE_DESCRIPTION.template.md)** for Markdown you can paste into the GitHub **Release** description (adjust version + date).
-- For a **private scratchpad** not committed to git, use **`RELEASE_DESCRIPTION.local.txt`** (gitignored; a starter may already exist on your machine — edit freely).
+- On GitHub: **Releases → Draft a new release**, pick a tag, and paste your changelog Markdown into the description.
+- For a **private scratchpad** not committed to git, use **`RELEASE_DESCRIPTION.local.txt`** (gitignored; create or edit it locally if you want a draft file).
 
 ---
 
