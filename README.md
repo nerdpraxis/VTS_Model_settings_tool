@@ -9,6 +9,22 @@ Desktop utility for **[VTube Studio](https://denchisoft.com/)** users who want t
 
 ---
 
+## Screenshots
+
+**Main window**
+
+![Main window](screenshots/ToolScreenshot.png)
+
+**Hotkey copy wizard**
+
+![Hotkey copy wizard](screenshots/Tool_Wizard-Hotkeys.png)
+
+**Parameter / settings copy wizard**
+
+![Parameter settings wizard](screenshots/Tool_Wizard-Settings.png)
+
+---
+
 ## Features
 
 | Area | What you get |
@@ -103,12 +119,12 @@ Changes in the UI are saved to this file when you modify them.
 ```
 main.py                 # Entry point
 vts_mst/                # Application package (UI, diff, hotkeys, parameters, …)
+screenshots/            # README images (UI + wizards)
 requirements.txt        # Runtime (PyQt6)
 requirements-build.txt  # PyInstaller
 build_exe.bat           # Windows one-file build
 VTSModelSettingsTool.spec  # Optional: pyinstaller VTSModelSettingsTool.spec
 config.ini.example      # Template (copy to config.ini; config.ini is gitignored)
-PLAN.md                 # Design / roadmap notes
 LICENSE                 # MIT
 ```
 
@@ -118,7 +134,6 @@ LICENSE                 # MIT
 
 - See **[RELEASE_DESCRIPTION.template.md](RELEASE_DESCRIPTION.template.md)** for Markdown you can paste into the GitHub **Release** description (adjust version + date).
 - For a **private scratchpad** not committed to git, use **`RELEASE_DESCRIPTION.local.txt`** (gitignored; a starter may already exist on your machine — edit freely).
-- See **[PACKAGE_FOR_GITHUB.md](PACKAGE_FOR_GITHUB.md)** if this folder still lives inside another repo and you want to split it out.
 
 ---
 
